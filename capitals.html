@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="capitals.css">
+    <title>Guess the capital!</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Guess the capital!</h1>
+    <h3 id="country">France</h3>
+    <input id="guess" type="text" placeholder="capital"><br><br>
+    <button onclick="fn1()" id="button" type="button" value="submit">Submit</button>
+    <h2 id="correctOrNot"> </h2>
+
+    <table>
+      <tr>
+        <td>Total score: </td>
+        <td id="totalPoints">0</td>
+        <td> points</td>
+      </tr>
+      <tr>
+        <td>Your average:  </td>
+        <td id="average">100</td>
+        <td>%</td>
+      </tr>
+    </table>
+
+    <p></p>
+    <p></p>
+
+
+
+
+
+    <table>
+      <tr>
+        <td>Your answer: </td>
+        <td id="showingUserAnswer"> </td>
+      </tr>
+      <tr>
+        <td>Correct answer: </td>
+        <td id="showingCorrectAnswer"> </td>
+      </tr>
+    </table>
+
+
+  </body>
+  <script type="text/javascript" src="capitals.js"></script>
+</html>
